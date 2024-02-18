@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sora - Tech Talk AI - All AI Related News & Blogs </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    
+    
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <p id="todaysDate"></p>
+
+<script>
+// Get today's date
+var today = new Date();
+
+// Format the date (e.g., February 13, 2024)
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+var formattedDate = today.toLocaleDateString('en-US', options);
+
+// Display the date in a paragraph element with id "todaysDate"
+document.getElementById('todaysDate').textContent = formattedDate;
+</script>
+
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Advertise</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body small" href="#">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 text-right d-none d-md-block">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-auto mr-n2">
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-twitter"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-facebook-f"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-linkedin-in"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-instagram"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-google-plus-g"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-youtube"></small></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Tech Talk<span class="text-secondary font-weight-normal"> AI</span></h1>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-uppercase text-primary">Biz<span class="text-white font-weight-normal">News</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="category.html" class="nav-item nav-link">Category</a>
+                    <a href="single.html" class="nav-item nav-link">Single News</a>
+                                                    
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control border-0" placeholder="Keyword">
+                    <div class="input-group-append">
+                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <center><h1  class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Creating Video From Text Using "SORA" From OPENAI</h1> 
+
+               <p class="mb-8 leading-relaxed">Sora is an AI model that can create realistic and imaginative scenes from text instructions. <br><br>We’re teaching AI
+                 to understand and simulate the physical world in motion, with the goal of training models that help people solve problems that require real-world
+                  interaction. <br><br>
+
+                Introducing Sora, our text-to-video model. Sora can generate videos up to a minute long while maintaining visual quality and adherence to the
+                 user’s prompt. <br><br>Today, Sora is becoming available to red teamers to assess critical areas for harms or risks. We are also granting access 
+                 to a number of visual artists, designers, and filmmakers to gain feedback on how to advance the model to be most helpful for creative 
+                 professionals. <br><br>We’re sharing our research progress early to start working with and getting feedback from people outside of OpenAI and 
+                 to give the public a sense of what AI capabilities are on the horizon.
+
+
+
+
+                </p>
+            
+          </div>
+          <div >
+            <iframe  loop  width="720" height="600" src="https://www.youtube.com/embed/OrJtQAxHUzA?autoplay=1&mute=1" 
+                        title="OpenAI Sora" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+</section>
+
+
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col">
+        <div class="h-1 bg-gray-200 rounded overflow-hidden">
+          <div class="w-24 h-full bg-yellow-500"></div>
+        </div>
+        <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+          <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Capabilities Of SORA</h1>
+          <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">These videos are non edited (raw) and are generated using SORA which is developed by OPEN 
+            AI. Sora can generate videos up to a minute long while maintaining visual quality and adherence to the user’s prompt. </p>
+        </div>
+      </div>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+          <div class="rounded-lg h-64 overflow-hidden">
+           <video class="object-cover object-center h-full w-full" autoplay loop src="/free-news-website-template/pics/tokyo-walk.mp4"></video>
+          </div>
+          <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Prompt : </h2>
+          <p class="text-base leading-relaxed mt-2">A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage. She wears
+             a black leather jacket, a long red dress, and black boots, and carries a black purse. She wears sunglasses and red lipstick. She walks confidently
+              and casually. The street is damp and reflective, creating a mirror effect of the colorful lights. Many pedestrians walk about.</p>
+          
+          </a>
+        </div>
+        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <video class="object-cover object-center h-full w-full" autoplay loop src="/free-news-website-template/pics/wooly-mammoth.mp4"></video>
+          </div>
+          <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Prompt :</h2>
+          <p class="text-base leading-relaxed mt-2">Several giant wooly mammoths approach treading through a snowy meadow, their long wooly fur lightly blows in
+             the wind as they walk, snow covered trees and dramatic snow capped mountains in the distance, mid afternoon light with wispy clouds and a sun high
+              in the distance creates a warm glow, the low camera view is stunning capturing the large furry mammal with beautiful photography, depth of field.</p>
+          
+          </a>
+        </div>
+        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <video class="object-cover object-center h-full w-full" autoplay loop src="/free-news-website-template/pics/monster-with-melting-candle.mp4"></video>
+          </div>
+          <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Prompt :</h2>
+          <p class="text-base leading-relaxed mt-2"> Animated scene features a close-up of a short fluffy monster kneeling beside a melting red candle.
+             The art style is 3D and realistic, with a focus on lighting and texture. The mood of the painting is one of wonder and curiosity, as the monster 
+             gazes at the flame with wide eyes and open mouth. Its pose and expression convey a sense of innocence and playfulness, as if it is exploring the 
+             world around it for the first time. The use of warm colors and dramatic lighting further enhances the cozy atmosphere of the image.</p>
+          
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-col">
+      <div class="lg:w-4/6 mx-auto">
+        <div  class="rounded-lg h-64 overflow-hidden">
+            <video class="object-cover object-center h-full w-full"  autoplay loop src="/free-news-website-template/pics/tokyo-in-the-snow.mp4"></video>
+        </div>
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+              
+                <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24" src="/free-news-website-template/pics/OPEN AI LOGO.jpg" alt="">
+                <circle cx="12" cy="7" r="4"></circle>
+              
+            </div>
+            <div class="flex flex-col items-center text-center justify-center">
+              <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">SORA By OPENAI </h2> <br>
+              <div class="w-12 h-1 bg-yellow-500 rounded mt-2 mb-4"></div>
+              <p class="text-base"><b>Prompt:</b> Beautiful, snowy Tokyo city is bustling. The camera moves through the bustling city street, following several people 
+                enjoying the beautiful snowy weather and shopping at nearby stalls. Gorgeous sakura petals are flying through the wind along with snowflakes.</p>
+            </div>
+          </div>
+          <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <p class="leading-relaxed text-lg mb-4">The model has a deep understanding of language, enabling it to accurately interpret prompts and generate 
+                compelling characters that express vibrant emotions. Sora can also create multiple shots within a single generated video that accurately persist 
+                characters and visual style. <br><br> The current model has weaknesses. It may struggle with accurately simulating the physics of a complex scene, and may not understand specific instances of cause and effect. For example, a person might take a bite out of a cookie, but afterward, the cookie may not have a bite mark.
+
+                The model may also confuse spatial details of a prompt, for example, mixing up left and right, and may struggle with precise descriptions of events that take place over time, like following a specific camera trajectory.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
